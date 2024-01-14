@@ -11,7 +11,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
+  color: var(--header-color);
   font-family: Poppins;
 }
 
@@ -106,5 +108,71 @@ nav h3 {
   left: 0;
   top: 30px;
 }
-/* main section styles */
+/*______________________
+ main section styles 
+ ----------------------*/
+/* partner section styles */
+.partners {
+  max-width: 1440px;
+  margin: 200px auto 100px;
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid rgba(128, 128, 128, 0.1);
+  border-bottom: 2px solid rgba(128, 128, 128, 0.1);
+}
+.partners img {
+  width: 100px;
+  padding: 40px 0;
+}
+/* collection section styles */
+.collection {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+.collection h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.items-container {
+  display: grid;
+  justify-items: center;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.item-cover {
+  display: block;
+  margin: 0 auto;
+}
+.items {
+  padding: 17px 14px;
+  text-align: left;
+  width: 330px;
+  height: 475px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.items h3 {
+  color: #18191f;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 16px 0 0;
+}
+.items .price {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+.items p {
+  width: 196px;
+  color: #787885;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 143%;
+  letter-spacing: 0.252px;
+}
 /* footer section styles */
