@@ -175,4 +175,40 @@ nav h3 {
   line-height: 143%;
   letter-spacing: 0.252px;
 }
+/* featured section styles */
+.featured-details {
+  max-width: 1440px;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+}
+.featured-description {
+  margin-left: 95px;
+}
+.featured-description h3 {
+  color: #0a0826;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 0;
+}
+.featured-description p {
+  width: 500px;
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.featured-description button {
+  background: #e02c6d;
+  display: inline-flex;
+  padding: 10px 24px;
+  align-items: flex-start;
+  gap: 8px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
 /* footer section styles */
